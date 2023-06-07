@@ -1,0 +1,11 @@
+.right-tryion{
+    background: linear-gradient(126.21deg, #243576 0.04%, #4F65B8 98.91%);
+}
+
+.hammer-drill-heading{
+    background: linear-gradient(90.61deg, #B6C3F4 1.23%, rgba(182, 195, 244, 0) 104.7%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
