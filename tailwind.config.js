@@ -5,13 +5,23 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  
   theme: {
+    screens: {
+    
+      'sm': '640px',
+      'md': '768px',
+      'semiMdS': '1023px',
+      'semiLgS': '1170px',
+      'lg': '1024px',
+      'xl': '1280px',
+  },
     fontFamily: {
       'sans': ['Poppins', 'sans-serif'],
       'inter': ['Inter', 'sans-serif'],
       'sukhumvit': ['Sukhumvit Set', 'sans-serif'],
       'graphik': ['GraphikTH Set', 'sans-serif'],
-    },
+    }, 
     extend: {
       backgroundColor: {
         'grey-common': '#F3F3F3',

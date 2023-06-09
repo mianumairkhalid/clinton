@@ -9,3 +9,17 @@
 background-clip: text;
 text-fill-color: transparent;
 }
+
+.payDay-heading{
+    background: linear-gradient(90.29deg, #4678A7 4.5%, #AFC9D5 108.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.navbar_display{
+    display: flex;
+    position: absolute;
+    background: white;
+}
